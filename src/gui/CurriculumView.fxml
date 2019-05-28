@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.CurriculumController"> 
+   <children>
+      <Button fx:id="btnEsempi" layoutX="216.0" layoutY="107.0" mnemonicParsing="false" onAction="#caricaEsempi" prefWidth="170.0" text="Prova con esempi precaricati" textAlignment="CENTER" AnchorPane.leftAnchor="215.0" AnchorPane.topAnchor="75.0" />
+      <Button fx:id="btnAddVoci" layoutX="216.0" layoutY="147.0" mnemonicParsing="false" onAction="#addVoci" prefHeight="25.0" prefWidth="170.0" text="Inserisci nuove voci" textAlignment="CENTER" AnchorPane.leftAnchor="215.0" AnchorPane.topAnchor="150.0" />
+      <Button fx:id="btnRemoveVoci" disable="true" layoutX="216.0" layoutY="188.0" mnemonicParsing="false" onAction="#removeVoci" prefHeight="25.0" prefWidth="170.0" text="Rimuovi voci" textAlignment="CENTER" AnchorPane.leftAnchor="215.0" AnchorPane.topAnchor="225.0" />
+      <Button fx:id="btnPrintCV" layoutX="216.0" layoutY="224.0" mnemonicParsing="false" onAction="#printCV" prefHeight="25.0" prefWidth="170.0" text="Stampa CV" textAlignment="CENTER" AnchorPane.leftAnchor="215.0" AnchorPane.topAnchor="300.0" />
+      <TextArea fx:id="txtStatus" layoutY="278.0" prefHeight="122.0" prefWidth="200.0" wrapText="true" />
+   </children>
+</AnchorPane>
